@@ -1,0 +1,13 @@
+
+logging:
+  file:
+    max-history: 11
+    max-size: 20MB
+    name: image-handle.log
+  pattern:
+    file: '%msg%n'
+    console: '%msg%n'
+
+image:
+  sourcePath: /Users/owenjia/Desktop/temp-image/origin/
+#  sourcePath: /Users/owenjia/developer/git-repo/image-handle/image/
